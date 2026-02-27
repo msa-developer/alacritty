@@ -1,0 +1,31 @@
+! XTerm Configurat! XTerm Minimal Configuration - Alpine Linux
+! ==========================================
+
+! Font settings
+XTerm*faceName: DejaVuSansM Nerd Font
+XTerm*faceSize: 11
+
+! Colors
+XTerm*background: black
+XTerm*foreground: white
+XTerm*cursorColor: green
+
+! Terminal capabilities
+XTerm*termName: xterm-256color
+XTerm*saveLines: 10000
+
+! Disable luit (not available on Alpine)
+XTerm*useLuit: false
+
+! UTF-8 support (required for Nerd Font icons)
+XTerm*utf8: 1
+XTerm*utf8Fonts: 1
+
+! Clipboard integration
+XTerm*selectToClipboard: true
+XTerm*VT100*translations: #override \n\
+    Shift Ctrl <Key>C: copy-selection(CLIPBOARD) \n\
+    Shift Ctrl <Key>V: insert-selection(CLIPBOARD)
+
+! Visual bell
+XTerm*visualBell: truee
