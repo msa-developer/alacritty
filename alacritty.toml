@@ -1,0 +1,33 @@
+[font]
+size = 11.0
+
+[font.normal]
+family = "DejaVuSansM Nerd Font"
+style = "Regular"
+
+[font.bold]
+family = "DejaVuSansM Nerd Font"
+style = "Bold"
+
+[font.italic]
+family = "DejaVuSansM Nerd Font"
+style = "Italic"
+
+[font.bold_italic]
+family = "DejaVuSansM Nerd Font"
+style = "Bold Italic"
+
+[font.offset]
+x = 0
+y = 0
+
+[font.glyph_offset]
+x = 0
+y = 0
+
+[cursor]
+style = { shape = "Beam", blinking = "Off" }
+
+[colors.cursor]
+text = "CellBackground"
+cursor = "#00FF00"
