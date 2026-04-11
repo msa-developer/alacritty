@@ -1,5 +1,5 @@
 [font]
-size = 11.0
+size = 12.0
 
 [font.normal]
 family = "DejaVuSansM Nerd Font"
@@ -31,3 +31,7 @@ style = { shape = "Beam", blinking = "Off" }
 [colors.cursor]
 text = "CellBackground"
 cursor = "#00FF00"
+
+[window]
+dynamic_padding = true
+
